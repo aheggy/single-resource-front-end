@@ -1,5 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+// DEPENDENCIES
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+
+// PAGES
+
+
+// COMPONENTS
+
 
 function App() {
   return (
