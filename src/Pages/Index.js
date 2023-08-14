@@ -1,4 +1,4 @@
-import Cities from "../components/Cities";
+import Cities from "../Components/Cities";
 
 function Index() {
   return (
