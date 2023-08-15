@@ -24,10 +24,32 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  padding: 0px 20px;
   box-shadow: 2px 2px 4px grey;
   margin-bottom: 1em;
+  height: 80px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
+
+nav h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 32px;
+  color: #333;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
 
 a {
   text-decoration: none;
@@ -40,6 +62,7 @@ button a {
 }
 
 .cities {
+  padding-top: 100px;
   display: flex;
   flex-wrap: wrap;
   border: 1px solid green;
