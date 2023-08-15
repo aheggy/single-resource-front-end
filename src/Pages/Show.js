@@ -1,11 +1,11 @@
-import CitieDetails from "../components/CitieDetails";
+import CityDetails from "../Components/CityDetails";
 
 function Show() {
   return (
     <div>
       <h2 className="m-5">City Details</h2>
       <div>
-        <CitieDetails />
+        <CityDetails />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import axios from "axios"
 import { useState, useEffect } from "react"
-import Citie from "./Citie"
+import City from "./City"
 
 const API = process.env.REACT_APP_API_URL
 
@@ -22,8 +22,8 @@ export default function Cities(){
 
     return (
         <div className="cities">
-            {cities.map((citie) => {
-                return <Citie key={citie.id} citie={citie}/>
+            {cities.map((city) => {
+                return <City key={city.id} city={city}/>
             })}
         </div>
     )

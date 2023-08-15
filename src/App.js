@@ -6,10 +6,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./Components/NavBar";
 import Home from "./Pages/Home";
 import Index from "./Pages/Index";
+import Show from "./Pages/Show";
 
 
 // COMPONENTS
-import Cities from "./Components/Cities";
 
 function App() {
   return (
@@ -18,8 +18,9 @@ function App() {
         <NavBar />
         <main>
           <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/cities" element={<Index/>}/>
+            <Route path="/" element={<Home/>} />
+            <Route path="/cities" element={<Index/>} />
+            <Route path="/cities/:id" element={<Show />} />
           </Routes>
         </main>
       </Router>
