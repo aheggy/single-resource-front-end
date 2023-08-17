@@ -7,7 +7,7 @@ export default function NavBar() {
         <Link to="/cities">TOP CITIES</Link>
       </h1>
       <button>
-        <Link to="/cities/new">New Citie</Link>
+        <Link to="/cities/new">New City</Link>
       </button>
     </nav>
   );
