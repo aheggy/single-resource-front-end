@@ -50,7 +50,6 @@ export default function CityEditForm() {
   return (
     <div className="Edit">
       <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Name:</label>
         <label htmlFor="City">City:</label>
         <input
           id="city"

@@ -37,7 +37,7 @@ function CityDetails() {
         </p>
 
         <p className="label">
-          <span className="bold">City:</span> {city.name}
+          <span className="bold">City:</span> {city.city}
         </p>
         <p className="label">
           <span className="bold">Population:</span> {city.population}
